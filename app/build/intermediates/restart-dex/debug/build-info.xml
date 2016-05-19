@@ -4,29 +4,37 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="323753624236873" >
+    timestamp="336287586139587"
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="7262" />
+        duration="4332" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="622" />
+        duration="70" />
     <task
         name="verifier"
-        duration="582" />
+        duration="28" />
 
     <artifact
-        location="C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
-    <build timestamp="323753624236873" >
+    <build timestamp="335847633034225" >
         <artifact
             location="C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="336287586139587"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

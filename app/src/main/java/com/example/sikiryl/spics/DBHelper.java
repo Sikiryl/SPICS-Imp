@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper{
-    private static final String DATABASE_NAME = "spics_database.db";
+    private static final String DATABASE_NAME = "spics_newdb.db";
     private static final int DATABASE_VERSION = 1;
 
     public DBHelper(Context context){
@@ -18,17 +18,20 @@ public class DBHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS product (" +
+        db.execSQL("CREATE TABLE product (" +
                 "productID INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "productName TEXT," +
-                "productPrice REAL," +
+                "productPrice INTEGER," +
                 "productImage TEXT);");
-        db.execSQL("CREATE TABLE IF NOT EXISTS cart (" +
+        db.execSQL("CREATE TABLE cart (" +
                 "cartID INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "productID INTEGER);");
         db.execSQL("INSERT INTO product (productName,productPrice,productImage) VALUES" +
-                "('MLG Glasses',420,'@drawable/profile.png')," +
-                "('MtnDew',322,'@drawable/background_material_red.png');");
+                "('MLG Glasses',420,'android.resource://com.example.sikiryl.spics/drawable/mlgglass')," +
+                "('MtnDew',322,'android.resource://com.example.sikiryl.spics/drawable/mtndew')," +
+                "('Air Horn',666,'android.resource://com.example.sikiryl.spics/drawable/airhorn')," +
+                "('Doritos',69,'android.resource://com.example.sikiryl.spics/drawable/doritos')," +
+                "('Salt',24,'android.resource://com.example.sikiryl.spics/drawable/salt');");
     }
 
     @Override

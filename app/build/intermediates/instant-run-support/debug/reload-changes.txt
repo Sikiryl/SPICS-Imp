@@ -1,12 +1,2 @@
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$menu$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$id$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$style$override.class
 CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$string$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\MainActivity$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$id$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$integer$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$mipmap$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$styleable$override.class
-CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\R$layout$override.class
+CHANGED,C:\Users\Sikiryl\Desktop\CPE333 SE\Term Project\SPICS\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sikiryl\spics\DBHelper$override.class
