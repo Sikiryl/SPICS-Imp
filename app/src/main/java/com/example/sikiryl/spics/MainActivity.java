@@ -1,9 +1,6 @@
 package com.example.sikiryl.spics;
 
 import android.os.Bundle;
-import android.database.Cursor;
-import android.content.ContentValues;
-import android.database.sqlite.SQLiteDatabase;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -17,6 +14,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Set the fragment initially
-        MainFragment fragment = new MainFragment();
+        HomeFragment fragment = new HomeFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction =
                 getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container, fragment);
@@ -61,6 +60,7 @@ public class MainActivity extends AppCompatActivity
         emailText.setText("newemail@email.com");
 
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             //Set the fragment initially
-            MainFragment fragment = new MainFragment();
+            HomeFragment fragment = new HomeFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_shopping) {
             //Set the fragment initially
-            GalleryFragment fragment = new GalleryFragment();
+            ShoppingFragment fragment = new ShoppingFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
