@@ -4,16 +4,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.sikiryl.spics.MainFragment">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MAIN"
-        android:padding="8dp"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="28sp"
-        android:id="@+id/main_button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/productList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+    </ScrollView>
+
 
 </RelativeLayout>

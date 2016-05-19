@@ -1,6 +1,9 @@
 package com.example.sikiryl.spics;
 
 import android.os.Bundle;
+import android.database.Cursor;
+import android.content.ContentValues;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -24,7 +27,6 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         //Set the fragment initially
         MainFragment fragment = new MainFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -99,7 +101,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
             //Set the fragment initially
             MainFragment fragment = new MainFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -107,7 +109,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_shopping) {
             //Set the fragment initially
             GalleryFragment fragment = new GalleryFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
