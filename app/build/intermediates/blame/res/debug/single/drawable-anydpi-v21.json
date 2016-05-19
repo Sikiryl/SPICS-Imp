@@ -8,6 +8,14 @@
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_home.xml"
     },
     {
+        "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_menu_cart.xml",
+        "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_flush_fuq.xml",
+        "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_flush_fuq.xml"
+    },
+    {
         "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_menu_shopping.xml",
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_shopping.xml"
     }

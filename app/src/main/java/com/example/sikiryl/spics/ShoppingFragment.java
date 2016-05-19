@@ -6,10 +6,12 @@ import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -78,7 +80,83 @@ public class ShoppingFragment extends Fragment {
         finally{
             helper.close();
         }
+        Button addProduct1 = (Button) rootView.findViewById(R.id.btn_add);
+        addProduct1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    addToCart(productID[0]);
+                    Snackbar.make(v, "Cart added", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+                finally{
+                    helper.close();
+                }
+            }
+        });
+        Button addProduct2 = (Button) rootView.findViewById(R.id.btn_add2);
+        addProduct2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    addToCart(productID[1]);
+                    Snackbar.make(v, "Cart added", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+                finally{
+                    helper.close();
+                }
+            }
+        });
+        Button addProduct3 = (Button) rootView.findViewById(R.id.btn_add3);
+        addProduct3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    addToCart(productID[2]);
+                    Snackbar.make(v, "Cart added", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+                finally{
+                    helper.close();
+                }
+            }
+        });
+        Button addProduct4 = (Button) rootView.findViewById(R.id.btn_add4);
+        addProduct4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    addToCart(productID[3]);
+                    Snackbar.make(v, "Cart added", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+                finally{
+                    helper.close();
+                }
+            }
+        });
+        Button addProduct5 = (Button) rootView.findViewById(R.id.btn_add5);
+        addProduct5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    addToCart(productID[4]);
+                    Snackbar.make(v, "Cart added", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+                finally{
+                    helper.close();
+                }
+            }
+        });
         return rootView;
+    }
+    private void addToCart(int pID) {
+        SQLiteDatabase db = helper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("productID",Integer.toString(pID));
+        db.insertOrThrow("cart",null,values);
     }
     private Cursor getProduct(){
         SQLiteDatabase db = helper.getReadableDatabase();

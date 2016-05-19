@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sikiryl.spics.CartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/txtCartList"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cart List"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="80dp"/>
+            <TextView
+                android:id="@+id/txtFullList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/txtTotalPrice"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Total Price: "
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp" />
+            <Button
+                android:id="@+id/flushNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_flush_fuq"
+                android:layout_gravity="end"
+                android:layout_weight="0.20"
+                android:minHeight="80dp"
+                android:minWidth="80dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
