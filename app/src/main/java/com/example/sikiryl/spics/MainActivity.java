@@ -1,6 +1,9 @@
 package com.example.sikiryl.spics;
 
 import android.os.Bundle;
+import android.database.Cursor;
+import android.content.ContentValues;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -20,11 +23,21 @@ public class MainActivity extends AppCompatActivity
     NavigationView navigationView = null;
     Toolbar toolbar = null;
 
+    private DBHelper helper;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        helper = new DBHelper(this);
+        try{
+            Cursor cursor = getProduct();
+            listProduct(cursor);
+        }
+        finally{
+            helper.close();
+        }
         //Set the fragment initially
         MainFragment fragment = new MainFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -61,6 +74,25 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+    private Cursor getProduct(){
+        SQLiteDatabase db = helper.getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM product ORDER BY productID;",null);
+        return cursor;
+    }
+
+    private void listProduct(Cursor cursor){
+        StringBuilder builder = new StringBuilder("Product list \n\n");
+        while (cursor.moveToNext()){
+            int productID = cursor.getInt(0);
+            String productName = cursor.getString(1);
+            int productPrice = cursor.getInt(2);
+            String productImage = cursor.getString(3);
+            builder.append(productID).append(" ").append(productName).append(" ").append(productPrice).append(" ").append(productImage).append("\n");
+
+        }
+        TextView output = (TextView) findViewById(R.id.productList);
+        output.setText(builder);
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
