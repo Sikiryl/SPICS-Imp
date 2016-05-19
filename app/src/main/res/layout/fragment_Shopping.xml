@@ -12,142 +12,223 @@
             android:layout_height="fill_parent"
             android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/img_shopping"
-        android:src="@drawable/background_material_red"
-        android:layout_marginTop="20dp"/>
+        <!--Product 1-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_shopping"
+                android:src="@drawable/background_material_red"
+                android:layout_marginTop="80dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txtName"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price: "
+                android:id="@+id/txtPrice"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/btn_fav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="favorite"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        <!--endProduct 1-->
 
-    <Button
-        android:id="@+id/btn_add"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add to Cart"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"/>
+        <!--Product 2-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_shopping2"
+                android:src="@drawable/background_material_red"
+                android:layout_marginTop="60dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txtName2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price: "
+                android:id="@+id/txtPrice2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_add2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/btn_fav2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="favorite"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        <!--endProduct 2-->
 
-    <Button
-        android:id="@+id/btn_fav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="favorite"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"/>
+        <!--Product 3-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_shopping3"
+                android:src="@drawable/background_material_red"
+                android:layout_marginTop="60dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txtName3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price: "
+                android:id="@+id/txtPrice3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_add3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/btn_fav3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="favorite"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        <!--endProduct 3-->
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_shopping2"
-            android:src="@drawable/background_material_red"
-            android:layout_marginTop="20dp"/>
+        <!--Product 4-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_shopping4"
+                android:src="@drawable/background_material_red"
+                android:layout_marginTop="60dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txtName4"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price: "
+                android:id="@+id/txtPrice4"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_add4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/btn_fav4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="favorite"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+        <!--endProduct 4-->
 
-        <Button
-            android:id="@+id/btn_add2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add to Cart"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"/>
+        <!--Product 5-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_shopping5"
+                android:src="@drawable/background_material_red"
+                android:layout_marginTop="60dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txtName5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price: "
+                android:id="@+id/txtPrice5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_add5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to Cart"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/btn_fav5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="favorite"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+        <!--endProduct 5-->
 
-        <Button
-            android:id="@+id/btn_fav2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="favorite"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_shopping3"
-            android:src="@drawable/background_material_red"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/btn_add3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add to Cart"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/btn_fav3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="favorite"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_shopping4"
-            android:src="@drawable/background_material_red"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/btn_add4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add to Cart"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/btn_fav4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="favorite"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/img_shopping5"
-            android:src="@drawable/background_material_red"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/btn_add5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add to Cart"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/btn_fav5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="favorite"
-            android:textColor="#fff"
-            android:background="@color/colorPrimary"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"/>
-        </LinearLayout>
+            </LinearLayout>
     </ScrollView>
 
 
