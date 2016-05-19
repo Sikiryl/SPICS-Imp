@@ -7,13 +7,39 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gellery"
+        android:text="Add to Cart"
         android:padding="8dp"
         android:textColor="#fff"
         android:background="@color/colorPrimary"
-        android:textSize="28sp"
-        android:id="@+id/main_button"
+        android:textSize="20sp"
+        android:id="@+id/btn_add"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_alignTop="@+id/btn_fav"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="favorite"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        android:id="@+id/btn_fav"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_toLeftOf="@+id/btn_add"
+        android:layout_toStartOf="@+id/btn_add"
+        android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/background_material_red" />
 
 </RelativeLayout>
