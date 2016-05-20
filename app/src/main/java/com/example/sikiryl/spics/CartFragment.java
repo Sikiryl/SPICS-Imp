@@ -37,6 +37,9 @@ public class CartFragment extends Fragment {
     private DBHelper helper;
     private int totalPrice = 0;
 
+    public int gettotal(){return this.totalPrice;}
+    public void settotal(){this.totalPrice =totalPrice;}
+
     public CartFragment() {
         // Required empty public constructor
     }

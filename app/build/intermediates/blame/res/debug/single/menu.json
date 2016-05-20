@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     }

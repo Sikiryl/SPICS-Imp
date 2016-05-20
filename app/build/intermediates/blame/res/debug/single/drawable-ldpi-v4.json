@@ -8,6 +8,18 @@
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_flush_fuq.png"
     },
     {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_cart.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\profile.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\src\\main\\res\\drawable-ldpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background_material_red.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\src\\main\\res\\drawable-ldpi\\background_material_red.png"
+    },
+    {
         "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_fav.png",
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_fav.png"
     },
@@ -16,8 +28,20 @@
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_home.png"
     },
     {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_fav.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_fav.png"
+    },
+    {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_home.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_home.png"
+    },
+    {
         "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\profile.png",
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\src\\main\\res\\drawable-ldpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_flush_fuq.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_flush_fuq.png"
     },
     {
         "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_shopping.png",
@@ -26,5 +50,9 @@
     {
         "merged": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\background_material_red.png",
         "source": "C:\\Users\\Sikiryl\\Desktop\\CPE333 SE\\Term Project\\SPICS\\app\\src\\main\\res\\drawable-ldpi\\background_material_red.png"
+    },
+    {
+        "merged": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_shopping.png",
+        "source": "C:\\Users\\saweera\\Desktop\\ProjectSE\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_shopping.png"
     }
 ]
