@@ -71,6 +71,7 @@ public class CartFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        /* Get Information From DB and Calculate Total Price */
         // Inflate the layout for this fragment
         final View rootView = inflater.inflate(R.layout.fragment_cart, container, false);
         helper = new DBHelper(getActivity());

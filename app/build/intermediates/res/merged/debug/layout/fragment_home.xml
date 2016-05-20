@@ -9,10 +9,24 @@
         android:layout_height="match_parent">
 
         <TextView
-                android:id="@+id/productList"
+            android:id="@+id/memTop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp"/>
+            android:text="Member"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/memName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mr. Chawapat Yongjittikornkul"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"/>
     </ScrollView>
 
 

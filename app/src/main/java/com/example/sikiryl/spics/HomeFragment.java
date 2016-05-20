@@ -26,24 +26,24 @@ public class HomeFragment extends Fragment{
     }
 
     private DBHelper helper;
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        helper = new DBHelper(getActivity());
-        try{
-            Cursor cursor = getProduct();
-            StringBuilder builder = listProduct(cursor);
-            TextView output = (TextView) rootView.findViewById(R.id.productList);
-            output.setText(builder);
-        }
-        finally{
-            helper.close();
-        }
-        // Inflate the layout for this fragment
-        return rootView;
-
-    }
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+//                             Bundle savedInstanceState) {
+//        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+//        helper = new DBHelper(getActivity());
+//        try{
+//            Cursor cursor = getProduct();
+//            StringBuilder builder = listProduct(cursor);
+//            TextView output = (TextView) rootView.findViewById(R.id.productList);
+//            output.setText(builder);
+//        }
+//        finally{
+//            helper.close();
+//        }
+//        // Inflate the layout for this fragment
+//        return rootView;
+//
+//    }
     private Cursor getProduct(){
         SQLiteDatabase db = helper.getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM product ORDER BY productID;",null);

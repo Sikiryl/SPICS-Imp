@@ -1,19 +1,72 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-                android:id="@+id/productList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"/>
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/memTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Member"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="26sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"/>
+            <TextView
+                android:id="@+id/memName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mr. Chawapat   Yongjittikornkul"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/memName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Miss Phenphitcha Patthanajitsil"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/memName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mr. Saweera Ngamkamolsuk"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/memName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mr. Saritrat Jirakulpornchai"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/memName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mr. Intouch Sangkrajang"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
     </ScrollView>
 
 
-</RelativeLayout>
+</LinearLayout>

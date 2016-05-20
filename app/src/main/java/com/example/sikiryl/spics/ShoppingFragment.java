@@ -34,7 +34,7 @@ public class ShoppingFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
+        /* Pull Information From DB to GUI */
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_shopping, container, false);
         helper = new DBHelper(getActivity());
@@ -152,17 +152,23 @@ public class ShoppingFragment extends Fragment {
         });
         return rootView;
     }
+
+    /* Add to Cart Method*/
     private void addToCart(int pID) {
         SQLiteDatabase db = helper.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("productID",Integer.toString(pID));
         db.insertOrThrow("cart",null,values);
     }
+
+    /* Get Product */
     private Cursor getProduct(){
         SQLiteDatabase db = helper.getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM product ORDER BY productID;",null);
         return cursor;
     }
+
+    /* Get Product List */
     private void listProduct(Cursor cursor){
         int i=0;
         while (cursor.moveToNext()){
